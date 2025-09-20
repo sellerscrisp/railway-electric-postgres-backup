@@ -1,0 +1,8 @@
+{
+	"$schema": "https://railway.com/railway.schema.json",
+	"build": { "builder": "DOCKERFILE" },
+	"deploy": {
+		"startCommand": "minio server /data --console-address :9001",
+		"numReplicas": 1
+	}
+}

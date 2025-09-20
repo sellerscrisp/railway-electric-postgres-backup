@@ -1,0 +1,1 @@
+FROM electricsql/electric:latest
